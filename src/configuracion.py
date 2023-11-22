@@ -1,71 +1,64 @@
 
 
-WIDTH = 800
-HEIGHT = 600
-SIZE_SCREEN = (WIDTH, HEIGHT)
+ANCHO = 800
+ALTO = 600
+TAMANIO_PANTALLA = (ANCHO, ALTO)
 
-CENTER_SCREEN = (WIDTH // 2, HEIGHT // 2)
+CENTRO_PANTALLA = (ANCHO // 2, ALTO // 2)
 
 ORIGIN = (0, 0)
 
 FPS = 60
 
-UR = 9
-DR = 3
-DL = 1
-UL = 7
+bloque_ancho = 60
+bloque_alto = 80
 
-BLOCK_WIDTH = 60
-BLOCK_HEIGHT = 80
+bloque_ancho_2 = 80
+bloque_alto_2 = 60
 
 SPEED = 5
 
 
 
 #COLORES 
-
-RED = (255, 0, 0)
-GREEN = (0, 255, 0)
-BLUE = (0, 0, 255)
-WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
-CYAN = (0, 255, 255)
+ROJO = (255, 0, 0)
+VERDE = (0, 255, 0)
+AZUL = (0, 0, 255)
+BLANCO = (255, 255, 255)
+NEGRO = (0, 0, 0)
+CIAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
-YELLOW = (255, 255, 0)
-PINK = (255, 128, 192)
+AMARILLO = (255, 255, 0)
+ROSA = (255, 128, 192)
 
-colores = [RED, GREEN, BLUE, WHITE, CYAN, MAGENTA, YELLOW, PINK]
+mover_arriba = False
+mover_abajo = False
+mover_izquierda = False
+mover_derecha = False
 
-
-buttom_width = 200
-buttom_height = 50
-
-
-move_up = False
-move_down = False
-move_left = False
-move_right = False
-
-max_cont = 0
-big_cont = 0
+contador_maximo = 0
 contador = 0
 
+velocidad_normal = 5
+velocidad = 5
 
-speed = 5
-
-x = 500
-y = 300
+x = 800
+y = 600
 
 
 
 tamanio_min_enemigo = 40
 tamanio_max_enemigo = 80
 
-velocidad_enemigo_min = 1
-velocidad_enemigo_max = 7
-
+movimiento_enemigo = 5
 tamanio_bala = (30, 30)
 
-velocidad_bala = 5
 
+
+
+
+velocidad_bala = 15
+
+ancho_del_boton = 250
+alto_del_boton = 50
 
